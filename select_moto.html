@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selezione Percorsi</title>
+    <link rel="stylesheet" href="styles_select_moto.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2 class="title-bar">SELEZIONA LA TUA MOTO</h2>
+        
+        <div class="select-row">
+            <select name="marca" id="marca" class="menu-select">
+                <option value="" disabled selected>MARCA</option>
+                <option value="honda">Honda</option>
+                <option value="yamaha">Yamaha</option>
+                <option value="ducati">Ducati</option>
+            </select>
+            <select name="modello" id="modello" class="menu-select" disabled>
+                <option value="" disabled selected>MODELLO</option>
+                <option value="cbr600">CBR 600</option>
+                <option value="mt07">MT-07</option>
+                <option value="panigale">Panigale V4</option>
+            </select>
+        </div>
+        
+        <h2 class="title-bar">SELEZIONA IL PERCORSO</h2>
+        
+        <select name="percorsi" id="percorsi" class="menu-select full-width">
+            <option value="" disabled selected>PERCORSI</option>
+            <option value="percorso1">Percorso 1</option>
+            <option value="percorso2">Percorso 2</option>
+            <option value="percorso3">Percorso 3</option>
+        </select>
+        
+        <button class="confirm-button">CONFERMA</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
